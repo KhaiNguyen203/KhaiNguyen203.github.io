@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello World</title>
+    <style>
+        /* Xóa bỏ khoảng trắng mặc định của trình duyệt */
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #000000; /* Nền đen */
+            height: 100vh;             /* Chiều cao bằng 100% màn hình hiển thị */
+            
+            /* Sử dụng CSS Flexbox để căn giữa */
+            display: flex;
+            justify-content: center;   /* Căn giữa theo chiều ngang */
+            align-items: center;       /* Căn giữa theo chiều dọc */
+            
+            /* Cấu hình font chữ */
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            overflow: hidden;          /* Ẩn thanh cuộn nếu có */
+        }
+
+        /* Cấu hình cho chữ HELLO WORLD */
+        .hello-text {
+            color: #ffffff;            /* Chữ màu trắng */
+            font-size: 5rem;           /* Cỡ chữ lớn (có thể tăng/giảm tùy ý) */
+            font-weight: bold;         /* Chữ in đậm */
+            text-transform: uppercase; /* Ép buộc viết hoa */
+            letter-spacing: 2px;       /* Khoảng cách giữa các chữ cái rộng hơn một chút */
+            text-align: center;        /* Đảm bảo chữ căn giữa nếu bị xuống dòng */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="hello-text">HELLO WORLD</div>
+
+</body>
+</html>
